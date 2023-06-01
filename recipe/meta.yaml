@@ -2,10 +2,10 @@
 
 package:
   name: transformato
-  version: 0.3
+  version: {{ version }}
 
 source:
-  url: https://github.com/wiederm/transformato/archive/refs/tags/v0.3.tar.gz
+  url: https://github.com/wiederm/transformato/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 00a8b8ac33a49a179035fc2ace86c382bad0f94363d95a7aa6a0f0157c181156
   
 build:
@@ -33,9 +33,7 @@ requirements:
   - networkx
   - tqdm
   - seaborn
-  - pytest
-  - pytest-cov
-  - codecov
+
 
 test:
   imports:
