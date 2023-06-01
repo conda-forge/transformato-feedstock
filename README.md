@@ -1,11 +1,11 @@
-About transformato
-==================
+About transformato-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/transformato-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/wiederm/transformato
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/transformato-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tool for setting up relativ binding free energyies
 
