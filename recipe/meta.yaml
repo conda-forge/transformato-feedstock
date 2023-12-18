@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -47,9 +47,9 @@ test:
 
 about:
   home: https://github.com/wiederm/transformato
-  summary: 'Tool for setting up relativ binding free energyies'
+  summary: 'Tool for setting up relative binding free energies'
   description: |
-    Transformato is a tool which creates files for mutating
+    Transformato is a tool that creates files for mutating
     one ligand into another (relative binding free energy).
     The created files are used to run MD simulations and calculate
     the resulting free energy differences.
