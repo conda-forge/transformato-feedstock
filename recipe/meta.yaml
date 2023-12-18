@@ -1,4 +1,4 @@
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 package:
   name: transformato
@@ -6,33 +6,33 @@ package:
 
 source:
   url: https://github.com/wiederm/transformato/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 00a8b8ac33a49a179035fc2ace86c382bad0f94363d95a7aa6a0f0157c181156
-  
+  sha256: 857e136563ad8ed7fc793434d85eb49d01e83b690c1c766c8076110926104a7c
+
 build:
   noarch: python
-  number: 1
-  script: {{ PYTHON }} -m pip install . -vv   
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-  - pip
-  - python >=3.6
+    - pip
+    - python >=3.6
   run:
-  - python >=3.6
-  - openmm
-  - openmmtools
-  - numpy
-  - ipython
-  - pymbar =3
-  - rdkit
-  - parmed
-  - pyyaml
-  - mdtraj
-  - mdanalysis
-  - matplotlib-base
-  - networkx
-  - tqdm
-  - seaborn
+    - python >=3.6
+    - openmm
+    - openmmtools
+    - numpy
+    - ipython
+    - pymbar =3
+    - rdkit
+    - parmed
+    - pyyaml
+    - mdtraj
+    - mdanalysis
+    - matplotlib-base
+    - networkx
+    - tqdm
+    - seaborn
 
 
 test:
@@ -45,7 +45,7 @@ test:
     - transformato.state
     - transformato.system
     - transformato.utils
-        
+
 about:
   home: https://github.com/wiederm/transformato
   summary: 'Tool for setting up relativ binding free energyies'
