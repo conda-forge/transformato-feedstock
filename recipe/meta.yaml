@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/wiederm/transformato/archive/refs/tags/v{{ version }}.tar.gz
+  url: https://github.com/cbc-univie/transformato/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 857e136563ad8ed7fc793434d85eb49d01e83b690c1c766c8076110926104a7c
 
 build:
@@ -33,7 +33,6 @@ requirements:
     - tqdm
     - seaborn
 
-
 test:
   imports:
     - transformato
@@ -56,7 +55,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  doc_url: https://wiederm.github.io/transformato/
+  doc_url: https://cbc-univie.github.io/transformato/
 
 extra:
   recipe-maintainers:
