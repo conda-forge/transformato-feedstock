@@ -5,8 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/cbc-univie/transformato/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5
+  url: https://github.com/cbc-univie/transformato/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 857e136563ad8ed7fc793434d85eb49d01e83b690c1c766c8076110926104a7c
 
 build:
   noarch: python
