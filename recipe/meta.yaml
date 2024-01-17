@@ -16,7 +16,7 @@ build:
 requirements:
   host:
     - pip
-    - setuptools
+    - ez_setup
     - python >=3.6
   run:
     - python >=3.6
@@ -40,7 +40,6 @@ test:
     - transformato
     - transformato.mutate
     - transformato.analysis
-    - transformato.constants
     - transformato.restraints
     - transformato.state
     - transformato.system
