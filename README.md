@@ -7,11 +7,11 @@ Home: https://github.com/wiederm/transformato
 
 Package license: MIT
 
-Summary: Tool for setting up relativ binding free energyies
+Summary: Tool for setting up relative binding free energies
 
 Documentation: https://wiederm.github.io/transformato/
 
-Transformato is a tool which creates files for mutating
+Transformato is a tool that creates files for mutating
 one ligand into another (relative binding free energy).
 The created files are used to run MD simulations and calculate
 the resulting free energy differences.
